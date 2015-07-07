@@ -9,6 +9,6 @@ Untuk cara instll :
 
 by   : Maful P Arnandi
 blog : http://mafulprayogaarnandi.blogspot.com/
-web  : maful.smk1.net
+web  : http://bocahdesa.com/
 
 {keep}coding
