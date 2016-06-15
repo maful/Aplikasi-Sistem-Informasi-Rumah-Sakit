@@ -13,7 +13,7 @@ $max	 = ceil($jml/$row);
 <?php
 	if($_POST["user"]){
 			include_once("../library/koneksi.php");
-			mysql_query("insert into login set username='".$_POST["usr"]."', password='".$_POST["pas"]."', nama='".$_POST["nma"]."', alamat='".$_POST["alt"]."'");
+			mysql_query("insert into login set username='".$_POST["usr"]."', password='".md5($_POST["pas"])."', nama='".$_POST["nma"]."', alamat='".$_POST["alt"]."'");
 			echo "<meta http-equiv='refresh' content='0; url=?menu=user'>";
 			echo "<center><div class='alert alert-success alert-dismissable'>
                   <button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>

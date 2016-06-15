@@ -35,8 +35,8 @@ session_start();
 include_once("library/koneksi.php");
 
 if(@$_POST["login"]){ //jika tombol Login diklik
-	$user=$_POST["user"];
-	$pass=$_POST["pass"];
+	$user = $_POST["user"];
+	$pass = md5($_POST["pass"]);
 	
 	if($user!="" && $pass!=""){
 		include_once("library/koneksi.php");
