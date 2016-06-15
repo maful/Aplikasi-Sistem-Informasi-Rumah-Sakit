@@ -58,13 +58,13 @@
 															<tr><td align='left'>Nama Pembuat</td><td>: Maful Prayoga Arnandi</td></tr>
 															<tr><td align='left'>Alamat</td><td>: Punggelan, Banjarnegara</td></tr>
 															<tr><td align='left'>Blog</td><td>: <a href='http://mafulprayogaarnandi.blogspot.com/'>mafulprayogaarnandi.blogspot.com</a></td></tr>
-															<tr><td align='left'>Website</td><td>: <a href='http://maful.smk1.net/'>maful.smk1.net</a></td></tr>
 															</table>
 														</blockquote>
 													</div>
 													<div class='tab-pane fade' id='messages'>
 														Hai.. Assalamu'alaikum WR.WB<p>
-														Selamat Datang di SIRS, aplikasi ini dibuat hanya untuk menguji seberapa mampunya saya(maful) sebelum saya berangkat Prakerin. Semoga dengan aplikasi ini bermanfaat dan juga mudah dikembangkan.<p>
+														Selamat Datang di SIRS, aplikasi ini dibuat untuk memudahkan pengelolaan yang ada pada rumah sakit.<br/>
+                                                         <strong>Jika Anda butuh bantuan atau customize aplikasi ini atau Anda ingin membutuhkan jasa saya, silahkan kontak saya di menu kontak. Saya akan melayani dengan senang hati.</strong><p>
 														Terimakasih.. Wassalamu'alaikum WR.WB<p>
 													</div>
 													<div class='tab-pane fade' id='kontak'>
@@ -73,9 +73,11 @@
 														<table><tr><td><a href='http://facebook.com/ogis.katana/'>
 														<img src='../img/fb.png' class='img-responsive' alt='Inbox Facebook'/></a></td><td> Maful Prayoga Arnandi</td></tr>
 														<tr><td><a href='http://twitter.com/ogis_katana/'>
-														<img src='../img/tw.png' class='img-responsive' alt='Inbox Facebook'/></a></td><td> @ogis_katana</td></tr>
+														<img src='../img/tw.png' class='img-responsive' alt='Inbox Facebook'/></a></td><td> @mafulprayoga</td></tr>
 														<tr><td>
-														<img src='../img/bbm.png' class='img-responsive' alt='Inbox Facebook'/></td><td> 73DE04DF</td></tr>
+														<img src='../img/bbm.png' class='img-responsive' alt='BBM'/></td><td> 54D7AED3</td></tr>
+                                                        <tr><td>WA /  SMS : 085726276148</td></tr>
+                                                        <tr><td>Email : mafulprayoga@gmail.com</td></tr>
 														</table>
 													</div>
 												</div>
