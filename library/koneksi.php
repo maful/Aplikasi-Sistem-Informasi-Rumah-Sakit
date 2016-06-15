@@ -1,5 +1,5 @@
 <?php
-	$server = mysql_connect("localhost","guthul","sangdeveloper");
+	$server = mysql_connect("localhost","root","");
 	$db = mysql_select_db("gd_sirs");
 	
 	if(!$server){
