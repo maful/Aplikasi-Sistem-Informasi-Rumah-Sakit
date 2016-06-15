@@ -119,7 +119,7 @@ CREATE TABLE IF NOT EXISTS `login` (
 --
 
 INSERT INTO `login` (`kd_user`, `username`, `password`, `nama`, `alamat`) VALUES
-(9, 'maful', 'cf8a1da51d92047a3b1993657d06719e', 'Maful P Arnandi', 'Klapa, Punggelan, Banjarnegara.');
+(9, 'maful', '3532c59f0f59e9fc8b2c9ea41e24b196', 'Maful P Arnandi', 'Klapa, Punggelan, Banjarnegara.');
 
 -- --------------------------------------------------------
 
