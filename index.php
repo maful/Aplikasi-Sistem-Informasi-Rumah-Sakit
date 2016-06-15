@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!--[if !IE]><!-->
+<html lang="en"> <!--<![endif]-->
 
 <!-- BEGIN HEAD -->
 <head>
@@ -47,9 +48,17 @@ if(@$_POST["login"]){ //jika tombol Login diklik
                   <button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>
 					Data Telah Ditemukan!!.
                   </div>";
-			$_SESSION["user"]=$data["username"];
-			$_SESSION["pass"]=$data["password"];
-			header("Location:admin/index.php");
+			$_SESSION["user"] = $data["username"];
+			$_SESSION["pass"] = $data["password"];
+
+      /**
+       * Ketika melakukan login namun tidak redirect ke halaman admin, silahkan pilih salah satu dari option dibawah
+       */
+
+			// header("Location:admin/index.php");
+      // echo '<meta http-equiv="refresh" content="0;url=admin/index.php" />';
+      echo '<script type="text/javascript">window.location.href="admin/index.php";</script>';
+
 		}else{
 			echo "<center><div class='alert alert-warning alert-dismissable'>
                   <button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>
