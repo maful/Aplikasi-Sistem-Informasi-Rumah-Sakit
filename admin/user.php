@@ -47,23 +47,23 @@ user(); //memanggil function user
 			<?php
 				$usSql = "SELECT * FROM login ORDER BY kd_user DESC LIMIT $hal, $row";
 				$usQry = mysql_query($usSql, $server)  or die ("Query Obat salah : ".mysql_error());
-				$nomor  = 0; 
+				$nomor  = 1; 
 				while ($us = mysql_fetch_array($usQry)) {
 			?>
 				<tbody>
 					<tr>
-						<td><?php echo $us['kd_user'];?></td>
+						<td><?php echo $nomor;?></td>
 						<td><?php echo $us['username'];?></td>
 						<td><?php echo $us['nama'];?></td>
 						<td><?php echo $us['alamat'];?></td>
 						<td>
 						  <div class='btn-group'>
-						  <a href="?menu=user_del&aksi=hapus&nmr=<?php echo $us['kd_user']; ?>" class="btn btn-xs btn-danger tipsy-kiri-atas" title="Hapus Data Ini" onclick="return confirm('ANDA YAKIN AKAN MENGHAPUS DATA PENTING INI ... ?')"><i class="icon-remove icon-white"></i></a>
+						  <a href="?menu=user_del&amp;aksi=hapus&amp;nmr=<?php echo $us['kd_user']; ?>" class="btn btn-xs btn-danger tipsy-kiri-atas" title="Hapus Data Ini" onclick="return confirm('ANDA YAKIN AKAN MENGHAPUS DATA PENTING INI ... ?')"><i class="icon-remove icon-white"></i></a>
 						  </div>
 						</td>
 					</tr>
 				</tbody>
-			<?php } ?>
+			<?php $nomor++;} ?>
 					<tr>
 						<td colspan="6" align="right">
 						<?php
